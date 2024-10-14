@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaGithub } from "react-icons/fa"; // Importing the icons
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -49,7 +50,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,6 +62,16 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          {/* LinkedIn and GitHub Icons */}
+          <li className='flex gap-4 items-center'>
+            <a href='https://www.linkedin.com/in/rajpowell' target='_blank' rel='noopener noreferrer'>
+              <FaLinkedin className='text-white hover:text-secondary' size={24} />
+            </a>
+            <a href='https://github.com/RAJPOWELL' target='_blank' rel='noopener noreferrer'>
+              <FaGithub className='text-white hover:text-secondary' size={24} />
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +102,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              {/* LinkedIn and GitHub Icons in mobile view */}
+              <li className='flex gap-4 items-center'>
+                <a href='https://www.linkedin.com/in/rajpowell' target='_blank' rel='noopener noreferrer'>
+                  <FaLinkedin className='text-white hover:text-secondary' size={24} />
+                </a>
+                <a href='https://github.com/RAJPOWELL' target='_blank' rel='noopener noreferrer'>
+                  <FaGithub className='text-white hover:text-secondary' size={24} />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
