@@ -184,67 +184,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Voice Assistant with OpenAI's GPT-3 and IBM Watson",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Integrated OpenAI GPT-3 to process and analyze the transcribed text, enabling the assistant to understand and respond intelligently to a wide range of queries.The assistant converts its responses into speech using IBM Watson Text-to-Speech technology, providing a fully immersive voice interaction experience.",
       tags: [
         {
-          name: "react",
+          name: "IBM Watson",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Flask",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "GPT3",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://courses.cognitiveclass.ai/certificates/0d5bd2e173574971979e7538f4cddade",
     },
     {
-      name: "Job IT",
+      name: "Alzheimer’s Prediction Using Transfer Learning",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built the project using Python, Flask, DNN models (CNN, InceptionV3, and SVM), TensorFlow, Ensemble Models, and SQL-lite, along with microservices tools such as Git, Docker, and Bash and other micro services tools such as Git, Docker & Bash. The ensemble model takes a MRI image as an input and extracts 23 features to classify the MRI image into one of the four categories (Non Demented, Mild Demented, Moderate Demented, Very mild Demented).",
       tags: [
         {
-          name: "react",
+          name: "Ensemble Method",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "DNN",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Flask",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/RAJPOWELL/Alzheimer-Detection-Using-Hybrid-Approach.git",
     },
     {
-      name: "Trip Guide",
+      name: "Malicious URL Detector",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Implemented using technologies such as ReactJS, Python, Django, machine learning model such as Random Forest algorithm, XG-Boost Classifier and dataset of 12,000 links. Conducted an analysis of the provided link by leveraging 128 pre-defined features to assess its potential maliciousness and generate a score indicating the likelihood of the link being harmful.",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Django",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Random Forest",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/RAJPOWELL/Malicious-URL-Identifier.git",
     },
   ];
   
