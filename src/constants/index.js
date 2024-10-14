@@ -248,4 +248,43 @@ import {
     },
   ];
   
+  export const certifications = [
+    {
+      title: "Career Essentials in Data Analysis",
+      provider: "Microsoft and LinkedIn",
+      link: "https://shorturl.at/GZ6Tg",
+      image: "src/assets/microsoft.png",  
+    },
+    {
+      title: "Career Essentials in Generative AI",
+      provider: "Microsoft and LinkedIn",
+      link: "https://shorturl.at/zCo4P",
+      image: "src/assets/microsoft.png",
+    },
+    {
+      title: "Artificial Intelligence Fundamentals",
+      provider: "IBM",
+      link: "https://shorturl.at/58OY5",
+      image: "src/assets/ibm.png",
+    },
+    {
+      title: "Full Stack Development with MERN",
+      provider: "CISCO Thing Qbator",
+      link: "https://shorturl.at/gIPqb",
+      image: "src/assets/cisco.png",
+    },
+    {
+      title: "Python for Data Science",
+      provider: "IBM",
+      link: "https://shorturl.at/yZzGO",
+      image: "src/assets/ibm.png",
+    },
+    {
+      title: "SQL and Relational Databases 101",
+      provider: "IBM",
+      link: "https://courses.cognitiveclass.ai/certificates/0d1cb47617c14060926fcb82dc9665c5",
+      image: "src/assets/ibm.png",
+    },
+  ];
+  
   export { services, technologies, experiences, testimonials, projects };

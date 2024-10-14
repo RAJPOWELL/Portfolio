@@ -78,13 +78,12 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following projects demonstrate my expertise and hands-on experience with cutting-edge technologies through 
+          practical implementations. Each project is outlined with a brief description, accompanied by links to code repositories and certificates.
+          These projects highlight my ability to build intelligent systems, develop full-stack applications, and work with diverse tools and 
+          frameworks, reflecting my capacity to solve complex challenges, collaborate with teams, and deliver impactful solutions.
         </motion.p>
       </div>
 

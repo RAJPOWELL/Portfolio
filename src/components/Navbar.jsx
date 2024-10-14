@@ -46,7 +46,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Raj Powell &nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
+            <span className='sm:block hidden'> | 3D Interactive Portfolio</span>
           </p>
         </Link>
 
