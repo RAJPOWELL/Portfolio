@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ibm from "./ibm.png"
+import cisco from "./cisco.png"
+import microsoft from "./microsoft.png"
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   jobit,
   tripguide,
   Compsoft,
+  ibm,
+  cisco,
+  microsoft,
 };
