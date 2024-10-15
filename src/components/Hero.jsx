@@ -22,6 +22,7 @@ const Hero = () => {
           I specialize in developing AI models, deploying web applications,<br className='sm:block hidden' />
           and integrating APIs using Flask, ReactJS, and Python.
           </p>
+          
         </div>
       </div>
 

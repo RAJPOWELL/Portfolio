@@ -25,6 +25,8 @@ import {
     cisco,
     ibm,
     microsoft,
+    portfolio,
+    crop,
   } from "../assets";
   
   export const navLinks = [
@@ -210,7 +212,7 @@ import {
     {
       name: "Alzheimer’s Prediction Using Transfer Learning",
       description:
-        "Built the project using Python, Flask, DNN models (CNN, InceptionV3, and SVM), TensorFlow, Ensemble Models, and SQL-lite, along with microservices tools such as Git, Docker, and Bash and other micro services tools such as Git, Docker & Bash. The ensemble model takes a MRI image as an input and extracts 23 features to classify the MRI image into one of the four categories (Non Demented, Mild Demented, Moderate Demented, Very mild Demented).",
+        "Built the project using Python, Flask, DNN models (CNN, InceptionV3, and SVM), TensorFlow, Ensemble Models, and SQL-lite, along with microservices tools such as Git, Docker, and Bash and other micro services tools such as Git, Docker & Bash. The ensemble model takes a MRI image as an input and extracts 23 features to classify the MRI image into one of the four categories.",
       tags: [
         {
           name: "Ensemble Method",
@@ -248,6 +250,69 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/RAJPOWELL/Malicious-URL-Identifier.git",
+    },
+    {
+      name: "3D Interactive Portfolio",
+      description:
+        "Implemented using technologies such as ReactJS, ThreeJS, TailwindCSS.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/RAJPOWELL/Portfolio.git",
+    },
+    {
+      name: "Build a RAG System for Web Data with LangChain and Llama 3.1",
+      description:
+        "Implemented using technologies such as ReactJS, ThreeJS, TailwindCSS.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/RAJPOWELL/Portfolio.git",
+    },
+    {
+      name: "Crop Prediction using Ensemble Model",
+      description:
+        "Developed a robust crop recommendation model utilizing ensemble techniques, seamlessly integrated with a React frontend. By leveraging the OpenWeather API for real-time weather data, the application provides tailored crop suggestions to optimize agricultural productivity and sustainability.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ensemble Model",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Flask APIs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crop,
+      source_code_link: "https://github.com/RAJPOWELL/Crop-Prediction-using-ML.git",
     },
   ];
   

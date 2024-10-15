@@ -33,6 +33,8 @@ import tripguide from "./tripguide.png";
 import ibm from "./ibm.png"
 import cisco from "./cisco.png"
 import microsoft from "./microsoft.png"
+import portfolio from "./portfolio.png"
+import crop from "./crop.png"
 
 export {
   logo,
@@ -66,4 +68,6 @@ export {
   ibm,
   cisco,
   microsoft,
+  portfolio,
+  crop,
 };
